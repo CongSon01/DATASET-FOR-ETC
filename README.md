@@ -9,10 +9,11 @@ The dataset is oriented on encrypted traffic classification problems. dataset co
 | Netflow-GQUIC          | Google Hangout Chat    | 2556            |
 |                        | Google Hangout VoIP    | 2198            |
 |                        | Youtube                | 4645            |
-|                        | Shopee                 | 2581            |
+| -----------------------| -----------------------| --------------- |
+| Additional Applications| Shopee                 | 2581            |
 |                        | Tiki                   | 1205            |
 |                        | Thegioididong          | 509             |
-| Additional Applications| Ebay                   | 1836            |
+|                        | Ebay                   | 1836            |
 |                        | Amazon                 | 834             |
 |                        | Alibaba                | 1401            |
 |                        | Facebook               | 1379            |
