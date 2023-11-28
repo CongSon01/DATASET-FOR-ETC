@@ -1,9 +1,11 @@
-# E-commerce, Video on-demand, Interative DATASET FOR ENCRYPTED TRAFFIC CLASSIFICATION
+# E-commerce, Video-on-demand, Interactive DATASET FOR ENCRYPTED TRAFFIC CLASSIFICATION
 ## Citation Author(s): AINI Labs
 ## Abstract
-The dataset is oriented on encrypted traffic classification problems. dataset compose Netflow-GQUIC and additional datasets. The former is captured during three weeks from March 2018, including Youtube, Google Hangout Chat and Google Hangout VoIP. The latter is captured recently from March to April 2023, including video streaming of Facebook (called Facebook) and commercial websites in Southeast Asia such as Shopee, Tiki, Thegiodidong, Ebay, Amazon and Alibaba. In this paper, we take into account various services containing Chat, VoIP, video streaming and commercial websites. The reason is that these services occupy over 80 percent of global IP traffic by 2022 [37]. The number of flows for each application is depicted in Tab. I. To improve the diversity of the data, we collect them on a PC running Ubuntu 18.04, Windows 10, or Mac OS X with Chromium-browser, Google Chrome, or Safari, respectively. A single capture file contains a single web page/video download trace for a particular OS and browser.
 
-## Dataset Description
+The network traffic metadata was collected from diverse SDN domains, including ONOS, RYU, and FAUCET, each employing a range of web applications. The dataset comprises both Netflow-GQUIC records and additional datasets. One part of the data was captured over a three-week period in March 2018, encompassing platforms such as YouTube, Google Hangout Chat, and Google Hangout VoIP. The second part was recently collected between March and April 2023, featuring video streaming from Facebook (referred to as Facebook) and popular commercial websites in Southeast Asia, including Shopee, Tiki, Thegiodidong, eBay, Amazon, and Alibaba. Subsequently, within each SDN domain, the data was preprocessed into FFMs (further details in section 3.3). To ensure data diversity, these records were collected on different systems, including Ubuntu 18.04, Windows 10, and Mac OS X, by Chromium, Google Chrome, and Safari web browsers, respectively. Each capture file represents a trace of a single web page or video download specific to the operating system
+and browser used. The resulting dataset encompasses a total of 12 applications, as outlined in Table 1.
+
+## Table 1: Dataset Description
 | Data sources           | Applications           | Number of flows |
 | -----------------------| -----------------------| --------------- |
 | Netflow-GQUIC          | Google Hangout Chat    | 2556            |
@@ -18,5 +20,5 @@ The dataset is oriented on encrypted traffic classification problems. dataset co
 |                        | Alibaba                | 1401            |
 |                        | Facebook               | 1379            |
 
-## Access dataset: https://tinyurl.com/CongSon-ETCDataset
+## Access dataset: https://drive.google.com/drive/folders/15mljCBCCjsINtjM3CqB-afy2xZ0Shgp2?usp=sharing
 
