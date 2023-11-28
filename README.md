@@ -1,5 +1,4 @@
 # E-commerce, Video-on-demand, Interactive DATASET FOR ENCRYPTED TRAFFIC CLASSIFICATION
-## Citation Author(s): AINI Labs
 ## Abstract
 
 The network traffic metadata was collected from diverse SDN domains, including ONOS, RYU, and FAUCET, each employing a range of web applications. The dataset comprises both Netflow-GQUIC records and additional datasets. One part of the data was captured over a three-week period in March 2018, encompassing platforms such as YouTube, Google Hangout Chat, and Google Hangout VoIP. The second part was recently collected between March and April 2023, featuring video streaming from Facebook (referred to as Facebook) and popular commercial websites in Southeast Asia, including Shopee, Tiki, Thegiodidong, eBay, Amazon, and Alibaba. Subsequently, within each SDN domain, the data was preprocessed into FFMs (further details in section 3.3). To ensure data diversity, these records were collected on different systems, including Ubuntu 18.04, Windows 10, and Mac OS X, by Chromium, Google Chrome, and Safari web browsers, respectively. Each capture file represents a trace of a single web page or video download specific to the operating system
